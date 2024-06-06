@@ -1,0 +1,243 @@
+*{
+    margin: 0%;
+    font-family: Arial, Helvetica;
+    border: border-box;
+}
+body{
+    background-color:rgb(240, 241, 241) ;
+} 
+header{
+    position: fixed;
+    top: 0px;
+}
+/**navbarpanel**/
+.navbarpanel{
+    height: 25px;
+    width: 100%;
+    background-color:rgb(233, 100, 12);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    padding-left: 55px;
+}
+.panel-ops{
+    margin:0px 22px 0px 0px;
+}
+.panel-ops:hover{
+    color:rgb(245, 223, 204);
+}
+/**navbar**/
+.navbar{
+    height: 65px;
+    width: 100%;
+    background-color: rgb(233, 100, 12);
+    display: flex;
+    align-items: center;
+    padding-left: 60px; 
+}
+.nav-logo{
+    width: 140px;
+    height: 48px;
+}
+.logo{
+    background-image: url(daraz\ logo.png);
+    background-size: cover;
+    height: 45px;
+    width: 115px;
+}
+.nav-search{
+    height: 35px;
+    width: 745px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 6px;
+}
+.search-icon{
+    height: 25px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe1d2;
+    color:rgb(233, 100, 12);
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+.search-input{
+    width: 100%;
+    border: none;
+    padding: 10px 15px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.search-input:focus{
+    outline: none;
+}
+.login{
+    margin: 10px 15px 10px 30px;
+    height: 25px;
+    width: 70px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    font-size: 0.9rem;
+}
+.signup{
+    height: 25px;
+    width: 70px;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px 30px 10px 15px;
+    padding: 10px 0px 0px 0px;
+    font-size: 0.9rem;
+}
+.user-icon{
+    color: white;
+    font-size: 1rem;
+    margin-right: 8px;
+}
+.nav-ops{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-carticon{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-carticon i{
+    font-size: 25px;
+    color: white;
+}
+.nav-ops div:hover{
+    background-color: rgba(134, 131, 131, 0.425);
+   border-radius: 10px;
+}
+/**hero section**/
+.hero-section{
+    height: 450px;
+    width: 1300px;
+    background-image: url(hero\ pic.jpg);
+    background-size: cover;
+    margin-top: 90px;
+}
+/**shop-section**/
+.shop-panel{
+    height: 40px;
+    width: 95%;
+    background-color: rgb(255, 242, 236);
+   margin-left: 35px;
+   margin-top: 30px;  
+   font-size: 0.85rem;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   border-radius: 10px;
+   
+}
+.shop-panel i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.vertical-line {
+    border-left: 1px solid grey; 
+    height: 12px; 
+}
+.shop-panel:hover{
+    background-color: rgb(247, 229, 228);
+}
+.hero-panelbox6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    height: 25px;
+    width: 25px;
+    background-image: url(foot-daraz\ logo.png);
+    background-size: cover;
+   border-radius: 5px;
+   /* font-size: 25px; */
+   margin-right: 5px;
+}
+h2{
+    font-weight: 500;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    height: 300px;
+  background-color: white;
+    width: 15%;
+   margin-top: 10px ;
+ 
+}
+.box-image{
+    height: 235px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.box p{
+    color:rgb(233, 100, 12) ;
+}
+/**footer-section**/
+.footer-section{
+    height: 550px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.footer-section a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+.footer-section h2{
+    color: rgb(233, 100, 12);
+    margin-top: 120px;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+.footer-section div{
+    height: 150px;
+    width: 300px;
+}
+.foot-box3 i{
+    height: 20px;
+    width: 25px;
+    margin-top: 8px;
+    font-size: larger;
+}
+.foot-box4 img{
+   margin-top: 50px;
+    height: 45px;
+    width: 50px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 8px;
+}
+.foot-box4{
+    display: flex;
+}
+.foot-box3 h3{
+    font-weight: 900;
+    color: rgb(233, 100, 12);
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+.foot-box3{
+    margin-top: 90px;
+}
+.footer-section a:hover{
+    text-decoration: underline;
+}
